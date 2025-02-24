@@ -38,8 +38,6 @@
 }
 
 .texto_comecar:hover {
-  padding: 12px;
-  border-radius: 8px;
   font-weight: 500;
   transform: scale(1.05);
   transition: 0.4s ease-in-out;
@@ -87,6 +85,7 @@
   border-radius: 8px;
   margin-inline: 6vw;
   background-color: var(--cinza);
+  box-shadow: 8px 8px 12px var(--preto), 4px 4px 16px var(--preto);
 }
 
 .img_icon_mais_sobre {
@@ -131,11 +130,11 @@
 .imgs_unidade {
   display: flex;
   flex-direction: column;
-  text-align: center;
   margin-inline: 6.1vw;
   border-radius: 18px;
   background: rgb(61, 61, 61);
   background: linear-gradient(0deg, rgba(61, 61, 61, 1) 0%, rgba(61, 61, 61, 1) 40%, rgba(61, 61, 61, 0.8995973389355743) 55%, rgba(61, 61, 61, 0.7511379551820728) 70%, rgba(61, 61, 61, 0) 100%);
+  box-shadow: 8px 8px 12px var(--preto), 4px 4px 16px var(--preto);
 }
 
 .img_unidade {
@@ -143,4 +142,74 @@
   height: 160px;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
+}
+
+.texto_local {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 16px 16px;
+  font-size: 1.2rem;
+  color: var(--branco-f5);
+}
+
+.nome_rua_unidade {
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.flex_column {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 5px -2px;
+  gap: 3px;
+}
+
+.img_icon_local {
+  height: 20px;
+  margin-top: -2px;
+}
+
+.links_unidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: 16px;
+  gap: 12px;
+}
+
+.texto_matricula {
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.4s ease-in-out;
+  border: solid 1px var(--branco-f5);
+  color: var(--azul-neon);
+  background-color: var(--cinza);
+}
+
+.texto_matricula:hover {
+  font-weight: 500;
+  transform: scale(1.05);
+  transition: 0.4s ease-in-out;
+  color: var(--cinza);
+  background-color: var(--branco-f5);
+}
+
+.texto_ver_mais {
+  padding: 10px 36.4px;
+  border-radius: 8px;
+  transition: 0.4s ease-in-out;
+  color: var(--cinza);
+  background-color: var(--branco-f5);
+}
+
+.texto_ver_mais:hover {
+  font-weight: 500;
+  transform: scale(1.05);
+  transition: 0.4s ease-in-out;
+  border: solid 1px var(--branco-f5);
+  color: var(--azul-neon);
+  background-color: var(--cinza);
+  text-shadow: 0 0 5px var(--azul-neon);
 }

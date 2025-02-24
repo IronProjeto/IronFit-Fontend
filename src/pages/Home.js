@@ -91,21 +91,25 @@ function Home() {
                 </SwiperSlide>
               </Swiper>
 
-              <div className="texto_local">
-                <Link to="/">
-                  <img className="img_icon_local" src="./images/pages/Home/icon_local.svg" alt="Ícone de localização" />
+              <Link to="/">
+                <div className="texto_local">
                   <h2 className="nome_cidade_unidade">Metrópolis</h2>
-                  <p className="nome_rua_unidade">Clinton Street, 344</p>
+                  <div className="flex_column">
+                    <img className="img_icon_local" src="./images/pages/Home/icon_local.svg" alt="Ícone de localização" />
+                    <p className="nome_rua_unidade">Clinton Street, 344</p>
+                  </div>
                   <p className="nome_rua_unidade">New Troy, Metrópolis - EUA</p>
+                </div>
+              </Link>
+
+              <div className="links_unidade">
+                <Link to="/">
+                  <p className="texto_matricula">Matricule-se</p>
+                </Link>
+                <Link to="/">
+                  <p className="texto_ver_mais">Ver Mais</p>
                 </Link>
               </div>
-
-              <Link to="/">
-                <p className="texto_matricula">Matricule-se</p>
-              </Link>
-              <Link to="/">
-                <p className="texto_ver_mais">Ver Mais</p>
-              </Link>
             </div>
           </div>
         </div>
