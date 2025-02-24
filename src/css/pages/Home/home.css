@@ -1,5 +1,10 @@
 /* BLOCO INICIAL */
+.principal {
+  padding-top: 1px;
+}
+
 .container_principal {
+  margin-top: 68px;
   height: 400px;
   background-image: url("/public/images/pages/Home/Img_academia_fundo.jpeg");
 }
